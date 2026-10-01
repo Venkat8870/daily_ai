@@ -31,9 +31,9 @@ jobs:
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
           NVIDIA_BASE_URL: ${{ secrets.NVIDIA_BASE_URL }}
           NVIDIA_MODEL: ${{ secrets.NVIDIA_MODEL }}
-          MAX_TAVILY_CALLS: "10"
+          MAX_TAVILY_CALLS: "2"
           TAVILY_SEARCH_DEPTH: "basic"
           MAX_RESULTS_PER_SEARCH: "5"
-          MAX_ARTICLES_FOR_LLM: "25"
-          MAX_FINAL_STORIES: "7"
+          MAX_ARTICLES_FOR_LLM: "4"
+          MAX_FINAL_STORIES: "2"
         run: python main.py
