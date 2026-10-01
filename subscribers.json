@@ -1,0 +1,35 @@
+{
+  "2112080974": {
+    "chat_id": "2112080974",
+    "name": "Hell no",
+    "username": "",
+    "active": true,
+    "topics": [
+      "AI Models & Releases",
+      "AI Agents",
+      "AI Research",
+      "Generative AI",
+      "AI Startups & Funding",
+      "Open Source AI",
+      "AI Developer Tools",
+      "Computer Vision & Multimodal AI",
+      "Robotics & Physical AI",
+      "AI Hardware & Chips"
+    ],
+    "created_at": "2026-10-01T16:29:45.400300+00:00",
+    "updated_at": "2026-10-01T16:29:45.400300+00:00"
+  },
+  "2120975514": {
+    "chat_id": "2120975514",
+    "name": "Nivas",
+    "username": "asdfg1907",
+    "active": true,
+    "topics": [
+      "AI Models & Releases",
+      "AI Agents",
+      "AI Research"
+    ],
+    "created_at": "2026-10-01T16:59:07.210988+00:00",
+    "updated_at": "2026-10-01T16:59:07.210988+00:00"
+  }
+}

@@ -1,0 +1,6 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+news_history.db
