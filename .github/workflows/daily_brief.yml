@@ -6,7 +6,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "30 1 * * *"
+    - cron: "0 1 * * *"
 
 jobs:
   daily-brief:
@@ -32,9 +32,9 @@ jobs:
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
           NVIDIA_BASE_URL: https://integrate.api.nvidia.com/v1
           NVIDIA_MODEL: nvidia/nemotron-3-ultra-550b-a55b
-          MAX_TAVILY_CALLS: "2"
+          MAX_TAVILY_CALLS: "5"
           TAVILY_SEARCH_DEPTH: "basic"
-          MAX_RESULTS_PER_SEARCH: "5"
-          MAX_ARTICLES_FOR_LLM: "4"
-          MAX_FINAL_STORIES: "2"
+          MAX_RESULTS_PER_SEARCH: "2"
+          MAX_ARTICLES_FOR_LLM: "5"
+          MAX_FINAL_STORIES: "4"
         run: python main.py
